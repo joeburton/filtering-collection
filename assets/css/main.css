@@ -1,0 +1,74 @@
+/* 
+    Document   : main.js 
+    Description: Main style sheet: All browsers and
+*/
+
+
+body {
+	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes width: 992px; */
+}
+
+#wrapper {
+	border-radius: 10px;
+	max-width:480px;
+	background: #ccc;
+	margin: 0 auto;
+	margin-top: 10px;
+}	
+
+#main {
+	border-radius: 6px;
+	max-width:480px;
+	background: #fff;
+	margin: 0 auto;
+	margin-top: 10px;
+	min-height: 40px;
+}
+
+.inner {
+	margin: 0 8px 0 8px;
+	padding: 0 5px 0 5px;
+}
+
+footer {
+	margin-top: 10px;   
+}
+
+footer p {
+	padding: 7px 0 7px 0;
+}
+
+article {
+	background: #fff;
+	margin-top: 24px;
+	display: inline-block;
+}
+
+button.new,
+button.save,
+button.delete,
+button.add {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 10px;
+	margin:  0 0 0 0;
+}
+
+/* Landscape smartphone
+@media screen and (min-width: 480px) {
+    #wrapper {
+        max-width:480px;
+    }
+} */
+
+
+/* Portrait smartphone
+@media screen and (min-width: 150px) and (max-width: 479px) {
+    #wrapper {
+        max-width:320px;
+    }
+	.list-form input {
+		width: 95.5%;
+	}
+} */

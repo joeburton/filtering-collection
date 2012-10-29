@@ -1,0 +1,89 @@
+html {
+    /* font-size: 12px; / / Fallback to IE8 and earlier
+    font-size: 1.2rem / / All other sensible browser */
+    font-size:62.5%;
+}
+
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    color:#000;
+}
+
+h1 {
+    padding: 10px 0 10px 0;
+    font-size: 25px; font-size: 2.5rem;
+    font-weight: normal;
+    color: #000;
+}
+
+h2 {
+    padding: 15px 0 0 0;
+    font-size: 22px; font-size: 2.2rem;
+    font-weight: normal;
+}
+
+h3 {
+    padding: 10px 0 10px 10px;
+    font-size: 20px; font-size: 2rem;
+    font-weight: normal;
+}
+
+h4 {
+    padding: 10px 0 10px 10px;
+    font-size: 18px; font-size: 1.8rem;
+    font-weight: normal;
+}
+
+h5 {
+    padding: 10px 0 10px 10px;
+    font-size: 16px; font-size: 1.6rem;
+    font-weight: normal;
+}
+
+h6 {
+    padding: 10px 0 10px 10px;
+    font-size: 14px; font-size: 1.4rem;
+    font-weight: normal;
+}
+
+p, em {
+    font-size: 14px; font-size: 1.4rem;
+    line-height: 16px;
+}
+
+ul li {
+    font-size: 14px; font-size: 1.4rem; 
+    line-height: 16px;
+}
+
+ol li {
+    font-size: 14px; font-size: 1.4rem; 
+    line-height: 16px;
+}
+
+footer {
+    color: #000;
+}
+
+footer p {
+    font-size: 12px; font-size: 1.2rem; 
+    padding: 10px;
+}
+
+a {
+    color: #000;    
+}
+
+a:hover {
+    color: #000;    
+}
+
+button.new,
+button.save,
+button.delete {
+    font-size: 14px; font-size: 1.4rem; 
+}
+
+.list-form input {
+	font-size: 16px;
+}
